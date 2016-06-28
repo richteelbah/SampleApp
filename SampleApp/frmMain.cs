@@ -16,7 +16,6 @@ namespace SampleApp
 
     public partial class frmMain : Form
     {
-        sddasd
         #region Variables
         private Control drawingControl;
         private Random rndr = new Random();
