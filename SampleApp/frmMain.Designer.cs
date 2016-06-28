@@ -38,6 +38,7 @@
             this.cmdClear = new System.Windows.Forms.Button();
             this.panDrawing = new System.Windows.Forms.Panel();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.button1 = new System.Windows.Forms.Button();
             this.panCommandBar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,6 +72,7 @@
             // 
             // panCommandBar
             // 
+            this.panCommandBar.Controls.Add(this.button1);
             this.panCommandBar.Controls.Add(this.cmdRefresh);
             this.panCommandBar.Controls.Add(this.cmdSave);
             this.panCommandBar.Controls.Add(this.cmdRandom);
@@ -138,6 +140,16 @@
             // 
             this.saveFileDialog1.Filter = "JPG Image|*.jpg";
             // 
+            // button1
+            // 
+            this.button1.AutoSize = true;
+            this.button1.Location = new System.Drawing.Point(437, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(92, 27);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Nothing";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -170,6 +182,7 @@
         private System.Windows.Forms.Panel panDrawing;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button cmdRefresh;
+        private System.Windows.Forms.Button button1;
     }
 }
 
