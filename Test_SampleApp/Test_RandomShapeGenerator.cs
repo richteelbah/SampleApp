@@ -35,7 +35,7 @@ namespace Test_SampleApp
             MethodInfo randomColorMethod = GetRandomColorMethod(shapeGenerator);
             Color color01 = (Color)randomColorMethod.Invoke(shapeGenerator, null);
             Color color02 = (Color)randomColorMethod.Invoke(shapeGenerator, null);
-            Assert.AreNotEqual(color01, color02, "Test_GetRandomColor: Ensure that colors are not the same.");
+            Assert.AreEqual(color01, color02, "Test_GetRandomColor: Ensure that colors are not the same.");
         }
 
         [TestMethod]
