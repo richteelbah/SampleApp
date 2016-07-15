@@ -1,0 +1,6 @@
+MSBUILD=C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\MSBuild.exe
+environmentName=build_c
+gitUrl=https://collab.boozallenet.com/gitlab/ArCADIE/arcadie.git
+gitCredsId=arcadie-ci
+gitBranchSpec=*/maintenance
+msbuildFile=Build\\MsBuild\\Environments\\${environmentName}.msbuild
